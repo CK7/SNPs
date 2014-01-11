@@ -21,3 +21,6 @@ bin/String.o : source/common/String.cpp
 
 bin/ReadSequence.o : source/common/ReadSequence.cpp
 	g++ -c source/common/ReadSequence.cpp -o bin/ReadSequence.o
+
+clean:
+	rm -f bin/*.o
